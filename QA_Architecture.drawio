@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-08T00:01:33.820Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Safari/605.1.15" etag="BI29SL7Xn5i3_nXvB0Mj" version="24.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-08T16:22:14.863Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Safari/605.1.15" etag="HzUillg5QUnRLE9a3uaS" version="24.0.2" type="github">
   <diagram name="Page-1" id="Kr2ntku6KOnwrp9GdXT6">
-    <mxGraphModel dx="1667" dy="1834" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="4413" dy="5627" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -36,6 +36,36 @@
         </mxCell>
         <mxCell id="RGzQTjB-QN1Bn-FcTvta-24" value="PostgresDB" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="RGzQTjB-QN1Bn-FcTvta-18">
           <mxGeometry x="248" y="73.67" width="85.33" height="85.33" as="geometry" />
+        </mxCell>
+        <mxCell id="RGzQTjB-QN1Bn-FcTvta-35" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="2129" y="1612" width="765.1" height="259" as="geometry" />
+        </mxCell>
+        <mxCell id="RGzQTjB-QN1Bn-FcTvta-32" value="" style="group" vertex="1" connectable="0" parent="RGzQTjB-QN1Bn-FcTvta-35">
+          <mxGeometry width="171.10000000000005" height="254.93725490196078" as="geometry" />
+        </mxCell>
+        <mxCell id="RGzQTjB-QN1Bn-FcTvta-25" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.api_gateway;fillColor=#D9A741;gradientColor=none;" vertex="1" parent="RGzQTjB-QN1Bn-FcTvta-32">
+          <mxGeometry width="171.10000000000002" height="211.2627450980392" as="geometry" />
+        </mxCell>
+        <mxCell id="RGzQTjB-QN1Bn-FcTvta-30" value="Federated Search" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="RGzQTjB-QN1Bn-FcTvta-32">
+          <mxGeometry x="55.54999999999997" y="224.46666666666664" width="60.000000000000014" height="30.470588235294116" as="geometry" />
+        </mxCell>
+        <mxCell id="RGzQTjB-QN1Bn-FcTvta-33" value="" style="group" vertex="1" connectable="0" parent="RGzQTjB-QN1Bn-FcTvta-35">
+          <mxGeometry x="305.00000000000006" width="171.09999999999994" height="259" as="geometry" />
+        </mxCell>
+        <mxCell id="RGzQTjB-QN1Bn-FcTvta-26" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.api_gateway;fillColor=#D9A741;gradientColor=none;" vertex="1" parent="RGzQTjB-QN1Bn-FcTvta-33">
+          <mxGeometry width="171.10000000000002" height="211.2627450980392" as="geometry" />
+        </mxCell>
+        <mxCell id="RGzQTjB-QN1Bn-FcTvta-29" value="CAMP API" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="RGzQTjB-QN1Bn-FcTvta-33">
+          <mxGeometry x="39.81999999999994" y="220.40392156862742" width="91.45000000000002" height="38.59607843137255" as="geometry" />
+        </mxCell>
+        <mxCell id="RGzQTjB-QN1Bn-FcTvta-34" value="" style="group" vertex="1" connectable="0" parent="RGzQTjB-QN1Bn-FcTvta-35">
+          <mxGeometry x="594.0000000000001" width="171.09999999999994" height="259" as="geometry" />
+        </mxCell>
+        <mxCell id="RGzQTjB-QN1Bn-FcTvta-27" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.api_gateway;fillColor=#D9A741;gradientColor=none;" vertex="1" parent="RGzQTjB-QN1Bn-FcTvta-34">
+          <mxGeometry width="171.10000000000002" height="211.2627450980392" as="geometry" />
+        </mxCell>
+        <mxCell id="RGzQTjB-QN1Bn-FcTvta-28" value="NBI API" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="RGzQTjB-QN1Bn-FcTvta-34">
+          <mxGeometry x="55.54999999999997" y="220.40392156862742" width="60.000000000000014" height="38.59607843137255" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
