@@ -1,9 +1,42 @@
-<mxfile host="app.diagrams.net" modified="2024-03-07T22:21:02.822Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Safari/605.1.15" version="24.0.2" etag="-34hQc74EdKnOWA5gX7W" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-08T00:01:33.820Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Safari/605.1.15" etag="BI29SL7Xn5i3_nXvB0Mj" version="24.0.2" type="github">
   <diagram name="Page-1" id="Kr2ntku6KOnwrp9GdXT6">
-    <mxGraphModel>
+    <mxGraphModel dx="1667" dy="1834" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="RGzQTjB-QN1Bn-FcTvta-14" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="386" y="-15" width="350" height="262" as="geometry" />
+        </mxCell>
+        <mxCell id="RGzQTjB-QN1Bn-FcTvta-11" value="" style="group" vertex="1" connectable="0" parent="RGzQTjB-QN1Bn-FcTvta-14">
+          <mxGeometry x="87" width="187" height="262" as="geometry" />
+        </mxCell>
+        <mxCell id="RGzQTjB-QN1Bn-FcTvta-9" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ec2;fillColor=#F58534;gradientColor=none;" vertex="1" parent="RGzQTjB-QN1Bn-FcTvta-11">
+          <mxGeometry width="180.97" height="207.33812949640287" as="geometry" />
+        </mxCell>
+        <mxCell id="RGzQTjB-QN1Bn-FcTvta-10" value="Ruby Agent EC2" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="RGzQTjB-QN1Bn-FcTvta-11">
+          <mxGeometry x="30.24" y="213.93525179856115" width="126.52" height="28.27338129496403" as="geometry" />
+        </mxCell>
+        <mxCell id="RGzQTjB-QN1Bn-FcTvta-12" value="Sidekiq Cron" style="rounded=1;whiteSpace=wrap;html=1;perimeterSpacing=10;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="RGzQTjB-QN1Bn-FcTvta-14">
+          <mxGeometry x="230" y="81" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RGzQTjB-QN1Bn-FcTvta-13" value="MQTT Listener" style="rounded=1;whiteSpace=wrap;html=1;perimeterSpacing=10;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="RGzQTjB-QN1Bn-FcTvta-14">
+          <mxGeometry y="81" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RGzQTjB-QN1Bn-FcTvta-18" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-146" y="-434" width="350" height="262" as="geometry" />
+        </mxCell>
+        <mxCell id="RGzQTjB-QN1Bn-FcTvta-19" value="" style="group" vertex="1" connectable="0" parent="RGzQTjB-QN1Bn-FcTvta-18">
+          <mxGeometry x="87" width="187" height="262" as="geometry" />
+        </mxCell>
+        <mxCell id="RGzQTjB-QN1Bn-FcTvta-20" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ec2;fillColor=#F58534;gradientColor=none;" vertex="1" parent="RGzQTjB-QN1Bn-FcTvta-19">
+          <mxGeometry width="180.97" height="207.33812949640287" as="geometry" />
+        </mxCell>
+        <mxCell id="RGzQTjB-QN1Bn-FcTvta-21" value="TMO Staging Server" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="RGzQTjB-QN1Bn-FcTvta-19">
+          <mxGeometry x="30.24" y="213.93525179856115" width="126.52" height="28.27338129496403" as="geometry" />
+        </mxCell>
+        <mxCell id="RGzQTjB-QN1Bn-FcTvta-24" value="PostgresDB" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="RGzQTjB-QN1Bn-FcTvta-18">
+          <mxGeometry x="248" y="73.67" width="85.33" height="85.33" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
